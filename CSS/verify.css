@@ -1,0 +1,42 @@
+.box{
+    width: 555px;
+    height: 306px;
+    position: relative;
+    margin: 6% auto;
+    padding: 12px;
+    border-radius: 75px;
+    overflow: hidden;
+}
+.en{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: aliceblue;
+   
+}
+.ing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    
+}
+.btnn{
+    
+    background: transparent;
+    border-color: aliceblue;
+    border-radius: 3px;
+    color: aliceblue;
+    font-size: 21px;
+    font-family: cursive;
+    
+}
+
+
+.input-f{
+    border-radius: 4px;
+    height: 24px;
+    border-color: aliceblue;
+    padding: 3px;
+    background: transparent;
+}

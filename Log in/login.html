@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/CSS/log-in.css">
+    <link rel="shortcut icon" 
+    href="/img/img.3.jpg" 
+    type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room-Log In </title>
+    
+</head>
+
+<body>
+   <section>
+<div  class="login" > 
+    
+    <div class="form">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button class="toggle" onclick="Login()">Log-In</button>
+            <button class="toggle" onclick="Register()">Register</button>
+        </div>
+        <form action="login.php" method="post" id="Login" class="input">
+            <input class="intpu-1" type="email" name="Username" placeholder="Username" required id="Username">
+            <br>
+            <input class="intpu-1" type="password" name="Password" placeholder="Password" required id="Password">
+            <br>
+            <input class="intput-2" type="checkbox"><span>Remember me</span>
+            <button class="submit-btn" onclick="location.href='http://127.0.0.1:5501/index.html'">Log-In</button>
+        </form>
+        
+        <form action="register.php" method="post" id="Register" class="input">
+            <input class="intpu-1" type="text" name="Username" placeholder="Username" required id="Username">
+            <br>
+            <input class="intpu-1" type="email" name="email" placeholder="E-mail Id" required id="emailid">
+            <br>
+            <input class="intpu-1" type="Phone" name="Phone" placeholder="Phone" required id="Phone">
+            <br>
+            <input class="intpu-1" type="password" name="Password" placeholder="Password" required id="Password">
+            <br>
+            <input class="intput-2" type="checkbox"><span>Agree trems and condition</span>
+            <button class="submit-btn" onclick="location.href='http://127.0.0.1:5501/verification.html'">Register</button>
+        </form>
+    
+    </div>
+
+</div>
+   </section>
+   <script>
+var x = document.getElementById("Login");
+var y = document.getElementById("Register");
+var z = document.getElementById("btn");
+
+function Register(){
+    x.style.left="389px";
+    y.style.left="50px";
+    z.style.left="110px";
+}
+function Login(){
+    x.style.left="50px";
+    y.style.left="-339px";
+    z.style.left="0px";
+}
+
+   </script>
+   
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat room - Online Dating</title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="img/img.1.jpg" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#message">Message</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search for your soulmate</button>
+        </div>
+    </nav>
+    <section class="background firstSection">
+     <div class="box-main">
+        <div class="firstHalf"> 
+           <p class="text-big">THE FUTURE OF MARRIAGE IS HERE</p>
+           <p class="text-small">There are many different site and platform in different countries for online dating and We are happy to introduce this platform for the first time in Nepal.</p>
+        <div class="buttons">
+            <button class="btn">Register</button>
+        </div>
+
+        </div>
+
+        <div class="secondHalf"> 
+            <img src="img/img.3.jpg" alt="Soulmate">
+        </div>
+     </div>
+    </section>
+
+    <section class="secRight">
+        <div class="paras">
+        <p class="secTag ">THE END OF YOUR SEARCH FOR SOULMATE IS HERE</p>
+        <p class="secSubtag ">We provide you the different packages under which we help you to find the perfect match. The perfect person for you will be suggested ny us. We provide you the your type life partner.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/img.4.jpg" alt="Online Dating" class="imgFluid">
+        </div>
+    </section>
+</body>
+</html>
